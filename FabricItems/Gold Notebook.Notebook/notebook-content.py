@@ -166,3 +166,13 @@ df_with_location_sig_class.write.mode('append').saveAsTable("earthquake_events_g
 # META   "language": "python",
 # META   "language_group": "synapse_pyspark"
 # META }
+
+# CELL ********************
+
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }

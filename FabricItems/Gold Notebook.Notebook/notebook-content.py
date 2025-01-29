@@ -63,7 +63,6 @@ def get_country_code(lat, lon):
     str: Country code of the location, retrieved using the reverse geocoding API.
 
     Example:
-    >>> get_country_details(48.8588443, 2.2943506)
     'FR'
     """
     coordinates = (float(lat), float(lon))

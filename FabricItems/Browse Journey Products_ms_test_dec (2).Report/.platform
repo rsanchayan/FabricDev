@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Browse Journey Products_ms_test_dec (2)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "fefc1cf5-a187-a092-4d26-2f3ca3e9f233"
+  }
+}

@@ -1,3 +1,0 @@
-dependencies:
-  - pip:
-      - reverse_geocoder==1.5.1

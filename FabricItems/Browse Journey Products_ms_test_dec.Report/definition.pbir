@@ -1,8 +1,0 @@
-{
-  "version": "4.0",
-  "datasetReference": {
-    "byPath": {
-      "path": "../Browse Journey Products_ms_test_dec.SemanticModel"
-    }
-  }
-}

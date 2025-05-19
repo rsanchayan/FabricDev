@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "Report",
-    "displayName": "Browse Journey Products_ms_test_dec"
+    "displayName": "Item Sales Report"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "495a93ab-55cb-94c1-4d0d-d157394dc947"
+    "logicalId": "a5897e01-0b64-b46c-40d7-4835fc0c8705"
   }
 }

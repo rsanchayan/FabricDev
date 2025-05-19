@@ -1,5 +1,5 @@
 {
-  "name": "CY22SU03",
+  "name": "CY24SU10",
   "dataColors": [
     "#118DFF",
     "#12239E",
@@ -107,13 +107,19 @@
         "categoryAxis": [
           {
             "showAxisTitle": true,
-            "gridlineStyle": "dotted"
+            "gridlineStyle": "dotted",
+            "concatenateLabels": false
           }
         ],
         "valueAxis": [
           {
             "showAxisTitle": true,
             "gridlineStyle": "dotted"
+          }
+        ],
+        "y2Axis": [
+          {
+            "show": true
           }
         ],
         "title": [
@@ -137,16 +143,16 @@
             "transparency": 0
           }
         ],
+        "border": [
+          {
+            "width": 1
+          }
+        ],
         "outspacePane": [
           {
             "backgroundColor": {
               "solid": {
                 "color": "#ffffff"
-              }
-            },
-            "foregroundColor": {
-              "solid": {
-                "color": "#252423"
               }
             },
             "transparency": 0,
@@ -186,7 +192,8 @@
       "*": {
         "bubbles": [
           {
-            "bubbleSize": -10
+            "bubbleSize": -10,
+            "markerRangeType": "auto"
           }
         ],
         "general": [
@@ -218,6 +225,11 @@
             "backgroundTransparency": 0,
             "gridLineType": "inner"
           }
+        ],
+        "forecast": [
+          {
+            "matchSeriesInterpolation": true
+          }
         ]
       }
     },
@@ -225,7 +237,25 @@
       "*": {
         "bubbles": [
           {
-            "bubbleSize": -10
+            "bubbleSize": -10,
+            "markerRangeType": "auto"
+          }
+        ]
+      }
+    },
+    "azureMap": {
+      "*": {
+        "bubbleLayer": [
+          {
+            "bubbleRadius": 8,
+            "minBubbleRadius": 8,
+            "maxRadius": 40
+          }
+        ],
+        "barChart": [
+          {
+            "barHeight": 3,
+            "thickness": 3
           }
         ]
       }
@@ -262,9 +292,10 @@
     },
     "pivotTable": {
       "*": {
-        "*": [
+        "rowHeaders": [
           {
-            "showExpandCollapseButtons": true
+            "showExpandCollapseButtons": true,
+            "legacyStyleDisabled": true
           }
         ]
       }
@@ -289,6 +320,37 @@
         ]
       }
     },
+    "cardVisual": {
+      "*": {
+        "layout": [
+          {
+            "maxTiles": 3
+          }
+        ],
+        "overflow": [
+          {
+            "type": 0
+          }
+        ],
+        "image": [
+          {
+            "fixedSize": false
+          },
+          {
+            "imageAreaSize": 50
+          }
+        ]
+      }
+    },
+    "advancedSlicerVisual": {
+      "*": {
+        "layout": [
+          {
+            "maxTiles": 3
+          }
+        ]
+      }
+    },
     "slicer": {
       "*": {
         "general": [
@@ -303,11 +365,6 @@
         ],
         "items": [
           {
-            "fontColor": {
-              "solid": {
-                "color": "#252423"
-              }
-            },
             "padding": 4,
             "accessibilityContrastProperties": true
           }
@@ -508,6 +565,32 @@
         "general": [
           {
             "responsive": true
+          }
+        ],
+        "smallMultiplesLayout": [
+          {
+            "backgroundTransparency": 0,
+            "gridLineType": "inner"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedAreaChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "smallMultiplesLayout": [
+          {
+            "backgroundTransparency": 0,
+            "gridLineType": "inner"
           }
         ]
       }

@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "name": "new_fact_limit",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/new_fact_limit",
+        "itemId": "677a317f-0b5c-47a9-8401-42e4c5240d41",
+        "workspaceId": "c0dd4888-5637-43a2-bac6-4508844202bb"
+      }
+    }
+  }
+]
